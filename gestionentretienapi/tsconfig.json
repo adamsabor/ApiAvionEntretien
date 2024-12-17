@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                       // Génère du JavaScript moderne
+    "module": "commonjs",                  // Utilise les modules CommonJS (Node.js)
+    "rootDir": "./src",                    // Emplacement des fichiers source
+    "outDir": "./dist",                    // Emplacement des fichiers compilés
+    "strict": true,                        // Active les vérifications strictes de TypeScript
+    "esModuleInterop": true,               // Gère les modules CommonJS/ESM
+    "forceConsistentCasingInFileNames": true, // Respecte la casse dans les imports
+    "skipLibCheck": true                   // Ignore les vérifications des fichiers .d.ts
+  },
+  "include": ["src/**/*"],                 // Inclut tous les fichiers TypeScript sous src/
+  "exclude": ["node_modules"]              // Exclut les dépendances
+}
+  
